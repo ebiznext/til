@@ -2,7 +2,7 @@ $ sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout scvd_ebizine
 $ openssl x509 -in scvd_ebizinext_com.crt -noout -text
 
 
-File openssl below (important thing in bold)
+File openssl below (important thing between ** and **)
 
 #
 # OpenSSL example configuration file.
